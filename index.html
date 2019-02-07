@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="css/style.min.css">
   <title>Tosnab</title>
@@ -10,7 +11,10 @@
 
 <body class="page">
   <header class="page-header">
-    <nav class="page-header__nav">
+    <nav class="page-header__nav wrapper">
+      <a href="index.html" class="page-header__logo">
+        <img src="img/logo.png" class="page-header__logo-img" alt="logo">
+      </a>
       <ul class="page-header__nav-list">
         <li>
           <a class="page-header__nav-link" href="#">Водоснабжение</a>
@@ -20,9 +24,6 @@
         </li>
         <li>
           <a class="page-header__nav-link" href="#">Канализация</a>
-        </li>
-        <li>
-          <a class="page-header__nav-link" href="#">Электроснабжение</a>
         </li>
         <li>
           <a class="page-header__nav-link" href="#">Магазин</a>
@@ -38,14 +39,32 @@
   </header>
 
   <main>
-    <section>
-
+    <section class="slider">
+      <div class="slider-textblock">
+        <p class="slider-text">Нужен монтаж?<br>Звоните!</p>
+        <a class="slider-tel" href="tel:9417609">941-76-09</a>
+      </div>
+      <ul class="slider-list swiper-wrapper">
+        <li class="slider-item swiper-slide">          
+        </li>
+        <li class="slider-item swiper-slide">          
+        </li>
+        <li class="slider-item swiper-slide">          
+        </li>
+        <li class="slider-item swiper-slide">         
+        </li>
+        <li class="slider-item swiper-slide">          
+        </li>
+      </ul>      
     </section>
   </main>
 
   <footer class="page-footer">
 
   </footer>
+
+  <script src="js/swiper.min.js"></script>
+  <script src="js/slider.js"></script>
 </body>
 
 </html>

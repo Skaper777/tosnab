@@ -1,0 +1,32 @@
+.page-header {
+    background: white;
+}
+
+.page-header__nav {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-header__nav-list {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin-left: 50px;
+}
+
+.page-header__nav-link {
+    color: @blue-link;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.3s;
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: @hover;
+        border-bottom: 1px solid;
+    }
+}
