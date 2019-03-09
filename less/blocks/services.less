@@ -1,0 +1,50 @@
+.services-list {
+    display: flex;  
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+  
+    @media (max-width: 850px) {
+      justify-content: space-between;
+    }
+  
+    @media (max-width: 730px) {
+      flex-direction: column;
+      align-content: center;
+    }
+  
+    &__item {
+      position: relative;
+      text-align: center;
+      width: 300px;
+      margin-bottom: 50px;
+      padding: 20px;
+      padding-top: 40px;
+      font-size: 18px;
+      background: white;
+      border-radius: 5px;
+      box-shadow: 0 0 20px -7px;
+  
+      @media (max-width: 380px) {
+        width: 260px;
+      }
+  
+      &::before {
+        position: absolute;
+        content: "";      
+        top: -25px;
+        left: calc(50% - 25px);
+        width: 50px;
+        height: 50px;
+        background: green;
+        background-image: url(../img/check.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        border: 4px solid white;
+        border-radius: 100%;
+        box-shadow: 0 0 2px 0;
+      }
+    }
+  }
