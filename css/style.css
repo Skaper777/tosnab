@@ -1488,6 +1488,7 @@ button.swiper-pagination-bullet {
   width: 300px;
   margin-bottom: 50px;
   padding: 20px;
+  line-height: 25px;
   padding-top: 40px;
   font-size: 18px;
   background: white;
