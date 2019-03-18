@@ -1486,15 +1486,16 @@ button.swiper-pagination-bullet {
 .content-list__item {
   width: 288px;
   padding: 10px;
-  text-align: center;
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 25px;
   background: white;
-  border: 1px solid #1B1B37;
   border-radius: 5px;
-  -webkit-box-shadow: 0 0 20px -7px;
-          box-shadow: 0 0 20px -7px;
+  -webkit-box-shadow: 0 0 20px -5px;
+          box-shadow: 0 0 20px -5px;
+}
+.content-list__item p {
+  margin-bottom: 10px;
 }
 .content-list__item-title {
   margin: 10px 0;
