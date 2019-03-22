@@ -79,6 +79,7 @@
     &--opened {
       display: flex;
       flex-direction: column;
+      padding-right: 0;
       width: 100%;
       margin: 0;
     }
@@ -124,12 +125,12 @@
   font-size: 16px;
   font-weight: 700;
   transition: 0.3s;
+  text-decoration: underline;
 
   &:hover,
   &:active,
   &:focus {
-    color: @hover;
-    border-bottom: 1px solid;
+    color: @hover;    
   }
 
   @media (max-width: 768px) {
