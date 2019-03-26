@@ -1432,10 +1432,7 @@ button.swiper-pagination-bullet {
           align-items: center;
 }
 .partners-img {
-  width: 150px;
-}
-.partners-img--small {
-  width: 100px;
+  width: 80px;
 }
 .content {
   position: relative;
@@ -1486,6 +1483,7 @@ button.swiper-pagination-bullet {
 .content-list__item {
   width: 288px;
   padding: 10px;
+  overflow: hidden;
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 25px;
@@ -1611,7 +1609,15 @@ button.swiper-pagination-bullet {
           box-shadow: 0 0 10px -5px;
 }
 .shop-list__item-img {
+  background-color: white;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
+  height: 250px;
+}
+.shop-list__item-img--cover {
+  background-size: cover;
 }
 .shop-list__item-title {
   margin: 30px 0;

@@ -15,10 +15,20 @@
     background: @blue-link;   
     border-radius: 5px;
     box-shadow: 0 0 10px -5px;
+
   }
 
   &__item-img {
+    background-color: white;    
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
+    height: 250px;
+
+    &--cover {
+      background-size: cover;
+    }
   }
 
   &__item-title {
