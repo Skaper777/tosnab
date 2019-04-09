@@ -1480,6 +1480,9 @@ button.swiper-pagination-bullet {
         align-content: center;
   }
 }
+.content-list img {
+  width: inherit;
+}
 .content-list__item {
   width: 288px;
   padding: 10px;
@@ -1582,6 +1585,8 @@ button.swiper-pagination-bullet {
 }
 .services-list__item a {
   text-decoration: underline;
+  color: orange;
+  font-weight: bold;
 }
 .shop-list {
   display: -webkit-box;
