@@ -1482,6 +1482,7 @@ button.swiper-pagination-bullet {
 }
 .content-list img {
   width: inherit;
+  max-height: 196px;
 }
 .content-list__item {
   width: 288px;
